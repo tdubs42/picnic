@@ -1,7 +1,8 @@
 repo_name: tdubs42/picnic
 report_id: dd3d5ddc71fd31c72c4e7b4686636d35
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T22:08:51+00:00'
+timestamp: '2024-01-04T15:15:53+00:00'
 requested_by: franciscop
 provider: github
 branch: master
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/tdubs42/picnic
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/tdubs42/picnic
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -35,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
   detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -47,7 +51,8 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
-  detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package.json
+  detection_source: package.json
   last_updated_by: Jordan Wallwork
   last_updated_on: 2014-09-16 08:34:42.000000000 Z
 - name: Bundler
@@ -58,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/2988/4e77LXIo_400x400.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
   detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -69,6 +75,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tdubs42/picnic
   detection_source: Repo Metadata
 - name: RubyGems
   description: Easily download, install, and use ruby software packages on your system
@@ -78,6 +85,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
   detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -89,6 +97,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/compass-breakpoint/package.json
   detection_source: src/vendor/compass-breakpoint/package.json
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -102,7 +111,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
-  detection_source_url: src/vendor/compass-breakpoint/package.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/compass-breakpoint/package.json
   detection_source: src/vendor/compass-breakpoint/package.json
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -124,7 +133,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: src/vendor/compass-breakpoint/package.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/compass-breakpoint/package.json
   detection_source: src/vendor/compass-breakpoint/package.json
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -138,7 +147,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
   detection_source: src/vendor/compass-breakpoint/package.json
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -152,7 +161,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Francisco Presencia
   last_updated_on: 2020-02-24 10:52:43.000000000 Z
@@ -185,7 +194,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17430/default_f52a9ea80d1a46080182faf142d844b81ca11aa6.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Francisco Presencia
   last_updated_on: 2020-02-24 10:52:43.000000000 Z
@@ -199,7 +208,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Francisco Presencia
   last_updated_on: 2020-02-24 10:52:43.000000000 Z
@@ -213,7 +222,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Francisco Presencia
   last_updated_on: 2020-02-24 10:52:43.000000000 Z
@@ -227,7 +236,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Francisco Presencia
   last_updated_on: 2020-02-24 10:52:43.000000000 Z
@@ -241,7 +250,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16843/default_768abdabb94806c932ace6262b6bbc8241907245.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Francisco Presencia
   last_updated_on: 2020-08-05 21:47:20.000000000 Z
@@ -255,7 +264,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Francisco Presencia
   last_updated_on: 2020-02-24 10:52:43.000000000 Z
@@ -269,20 +278,20 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Francisco Presencia
   last_updated_on: 2019-08-08 21:04:42.000000000 Z
   vulnerabilities:
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21680
-    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21681
-    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
@@ -302,8 +311,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
-  detection_source: src/vendor/compass-breakpoint/package.json
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Francisco Presencia
   last_updated_on: 2020-08-05 21:47:20.000000000 Z
   vulnerabilities:
@@ -323,6 +332,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18856/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
   detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -336,6 +346,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
   detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -348,6 +359,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
   detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
@@ -361,6 +373,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18953/default_026d30b21bca5e0a8e1755b462b565cf0847a762.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
   detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
   last_updated_by: FranciscoP
   last_updated_on: 2016-02-15 22:08:10.000000000 Z
