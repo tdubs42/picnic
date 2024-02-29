@@ -1,0 +1,379 @@
+repo_name: tdubs42/picnic
+report_id: dd3d5ddc71fd31c72c4e7b4686636d35
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:23:59+00:00'
+requested_by: franciscop
+provider: github
+branch: master
+detected_tools_count: 24
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/tdubs42/picnic
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/tdubs42/picnic
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
+  detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jordan Wallwork
+  last_updated_on: 2014-09-16 08:34:42.000000000 Z
+- name: Bundler
+  description: A consistent environment for tracking and installing  gems and versions
+  website_url: http://bundler.io
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/2988/4e77LXIo_400x400.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
+  detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tdubs42/picnic
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
+  detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/compass-breakpoint/package.json
+  detection_source: src/vendor/compass-breakpoint/package.json
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+- name: diff
+  description: A javascript text diff implementation
+  package_url: https://www.npmjs.com/diff
+  version: 1.2.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16509/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/compass-breakpoint/package.json
+  detection_source: src/vendor/compass-breakpoint/package.json
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service (ReDoS)
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-h6ch-v84p-w6p9
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.5.0
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/compass-breakpoint/package.json
+  detection_source: src/vendor/compass-breakpoint/package.json
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 3.2.11
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: src/vendor/compass-breakpoint/package.json
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+- name: grunt
+  description: The JavaScript Task Runner
+  package_url: https://www.npmjs.com/grunt
+  version: 0.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francisco Presencia
+  last_updated_on: 2020-02-24 10:52:43.000000000 Z
+  vulnerabilities:
+  - name: Race Condition in Grunt
+    cve_id: CVE-2022-1537
+    cve_url: https://github.com/advisories/GHSA-rm36-94g8-835r
+    detected_date: May 26
+    severity: high
+    first_patched: 1.5.3
+  - name: Arbitrary Code Execution in grunt
+    cve_id: CVE-2020-7729
+    cve_url: https://github.com/advisories/GHSA-m5pj-vjjf-4m3h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.3.0
+  - name: Path Traversal in Grunt
+    cve_id: CVE-2022-0436
+    cve_url: https://github.com/advisories/GHSA-j383-35pm-c5h4
+    detected_date: Apr 27
+    severity: moderate
+    first_patched: 1.5.2
+- name: grunt-banner
+  description: Adds a simple banner to files
+  package_url: https://www.npmjs.com/grunt-banner
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17430/default_f52a9ea80d1a46080182faf142d844b81ca11aa6.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francisco Presencia
+  last_updated_on: 2020-02-24 10:52:43.000000000 Z
+- name: grunt-cli
+  description: The grunt command line interface
+  package_url: https://www.npmjs.com/grunt-cli
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16021/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francisco Presencia
+  last_updated_on: 2020-02-24 10:52:43.000000000 Z
+- name: grunt-contrib-concat
+  description: Concatenate files
+  package_url: https://www.npmjs.com/grunt-contrib-concat
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16075/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francisco Presencia
+  last_updated_on: 2020-02-24 10:52:43.000000000 Z
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francisco Presencia
+  last_updated_on: 2020-02-24 10:52:43.000000000 Z
+- name: grunt-contrib-sass
+  description: Compile Sass to CSS
+  package_url: https://www.npmjs.com/grunt-contrib-sass
+  version: 0.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16843/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francisco Presencia
+  last_updated_on: 2020-08-05 21:47:20.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: 0.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francisco Presencia
+  last_updated_on: 2020-02-24 10:52:43.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 0.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francisco Presencia
+  last_updated_on: 2019-08-08 21:04:42.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Marked ReDoS due to email addresses being evaluated in quadratic time
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xf5p-87ch-gxw2
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.6.2
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Francisco Presencia
+  last_updated_on: 2020-08-05 21:47:20.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+- name: colorize
+  description: Extends String class or add a ColorizedString with methods to set text
+    color
+  package_url: https://rubygems.org/colorize
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18856/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
+  detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
+  detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
+  detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
+- name: term-ansicolor
+  description: This library uses ANSI escape sequences to control the attributes of
+    terminal output
+  package_url: https://rubygems.org/term-ansicolor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18953/default_026d30b21bca5e0a8e1755b462b565cf0847a762.png
+  detection_source_url: https://github.com/tdubs42/picnic/blob/master/src/vendor/sassy-maps/sassy-maps.gemspec
+  detection_source: src/vendor/sassy-maps/sassy-maps.gemspec
+  last_updated_by: FranciscoP
+  last_updated_on: 2016-02-15 22:08:10.000000000 Z
