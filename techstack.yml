@@ -2,7 +2,7 @@ repo_name: tdubs42/picnic
 report_id: dd3d5ddc71fd31c72c4e7b4686636d35
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:06:02+00:00'
+timestamp: '2024-02-29T18:23:59+00:00'
 requested_by: franciscop
 provider: github
 branch: master
@@ -56,7 +56,7 @@ tools:
   last_updated_by: Jordan Wallwork
   last_updated_on: 2014-09-16 08:34:42.000000000 Z
 - name: Bundler
-  description: 'A consistent environment for tracking and installing  gems and versions '
+  description: A consistent environment for tracking and installing  gems and versions
   website_url: http://bundler.io
   open_source: false
   hosted_saas: false
